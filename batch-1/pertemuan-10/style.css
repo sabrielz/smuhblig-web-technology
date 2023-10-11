@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.navbar-kiri a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    font-family: Arial, sans-serif; /* Untuk mengubah font */
+}
+
+.navbar-kanan button {
+    display: block;
+    transform: rotate(90deg); /* Untuk memutar element */
+    border: none; /* Untuk menghilangkan garis tepi */
+    background: none; /* Untuk menghapus background */
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 350px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.section div {
+    flex: 1;
+    max-width: 400px;
+}
+
+.section h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.section hr {
+    margin: 7px 5px;
+    border: 1px solid black;
+    max-width: 120px;
+}
+
+.section .btn {
+    display: block;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 15px;
+    max-width: max-content;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+body {
+    line-height: 1.5;
+}
+
+#about {
+    background-color: #eee;
+}

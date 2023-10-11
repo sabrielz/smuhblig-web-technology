@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    /* warna background */
+    /* background-color: #eee; */
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+    /* Untuk tata letak kanan kiri dan sama tengah */
+    display: flex;
+    justify-content: space-between; /* untuk kanan kiri */
+    align-items: center; /* untuk vertikal tengah */
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navigasi {
+    float: right;
+}
+
+.navigasi a {
+    margin-left: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.gambar-utama {}
+
+/* .gambar-utama img {
+    display: block;
+    width: 80%;
+    margin: auto;
+} */
+
+.gambar-utama img {
+    width: 100%;
+    max-height: 400px;
+}
+
+
+
+
+
+
+.judul-utama {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+
+.judul-utama h1 {
+    margin-bottom: 10px;
+}
