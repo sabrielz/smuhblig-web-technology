@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dashboard </title>
+    <link rel="stylesheet" href="../dashboard.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h1 class="logo"> Dashboard </h1>
+            <hr> <!-- Garis pemisah logo dan menu -->
+            <nav class="sidebar-nav">
+                <a href="" class="nav-link">
+                    Dashboard
+                </a>
+                <a href="" class="nav-link">
+                    Product
+                </a>
+                <a href="" class="nav-link">
+                    Logout
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Tengah/Konten -->
+        <main class="main">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <div class="left">
+                    <button class="button toggler">
+                        |||
+                    </button>
+                </div>
+
+                <div class="right">
+                    <div class="user-avatar">
+                        Darsono
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Content -->
+            <div class="wrapper-content">
+
+                
+                <section class="all-product">
+                    <h2 class="section-title"> Semua Produk </h2>
+
+                    <div class="section-buttons">
+                        <a href="" class="button add"> Tambah Produk </a>
+                    </div>
+                    
+                    <table class="table-product" border="1" width="100%">
+                        <thead>
+                            <tr>
+                                <th> No </th>
+                                <th> Nama Produk </th>
+                                <th> Kategori </th>
+                                <th> Harga </th>
+                                <th> Jumlah <br> Barang </th>
+                                <th> Aksi </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1 </td>
+                                <td> Kemeja </td>
+                                <td> Pakaian </td>
+                                <td> Rp. 75.000 </td>
+                                <td> 5 </td>
+                                <td>
+                                    <a href="" class="button delete"> Hapus </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> 2 </td>
+                                <td> Sepatu </td>
+                                <td> Pakaian </td>
+                                <td> Rp. 120.000 </td>
+                                <td> 7 </td>
+                                <td>
+                                    <a href="" class="button delete"> Hapus </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                Copyright &copy; by Darsono 2023
+            </footer>
+        </main>
+    </div>
+
+    <script src="../dashboard.js"></script>
+</body>
+
+</html>

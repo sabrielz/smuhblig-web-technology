@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <button class="mulai"> Mulai </button>
+    </div>
+
+    <script>
+        let buttonMulai = document.querySelector('.content .mulai')
+        buttonMulai.onclick = function() {
+            alert('Selamat Datang!')
+
+            let jomblo = confirm('Apakah anda jomblo?')
+            if (jomblo) {
+
+                let berminat = confirm('Apakah anda mencari pasangan?')
+                if (berminat) {
+                    document.body.style.background = "red"
+                    
+                    alert('Mati saja kau!')
+                    let berjuang = confirm('Apakah anda masih berjuang?')
+                    if (berjuang) {
+                        document.body.style.background = 'green'
+
+                        alert('Tetaplah berdoa kawan!')
+                        let kaya = confirm('Apakah anda kaya?')
+                        if (kaya) {
+                            alert('Selamat orang tua pasti bangga!')
+                            alert('Selamat tinggal...')
+                        }
+                    }
+                }
+                
+            } else {
+                
+            }
+        }
+    </script>  
+</body>
+</html>
